@@ -1,0 +1,32 @@
+{
+  "name": "project-4-scalable-url-shortner",
+  "version": "1.0.0",
+  "description": "\"get longUrl from user,we conert it into shortUrl and by using shortUrl user can redirect that site \"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manasi123456/Project-4-Scalable-URL-Shortner.git"
+  },
+  "author": "group 87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manasi123456/Project-4-Scalable-URL-Shortner/issues"
+  },
+  "homepage": "https://github.com/manasi123456/Project-4-Scalable-URL-Shortner#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.0",
+    "mongoose-type-url": "^2.1.0",
+    "nodemon": "^2.0.15",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
