@@ -19,6 +19,6 @@ mongoose
 
 app.use("/", route);
 
-app.listen(process.env.PORT || 4000, function () {
-  console.log("Express app is running on " + " " + (process.env.PORT || 4000));
+app.listen(process.env.PORT || 3000, function () {
+  console.log("Express app is running on " + " " + (process.env.PORT || 3000));
 });
